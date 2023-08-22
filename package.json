@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "storybook": "storybook dev -p 6006",
+    "test-storybook": "test-storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
@@ -30,8 +32,10 @@
     "@storybook/addon-interactions": "^7.0.23",
     "@storybook/addon-links": "^7.0.23",
     "@storybook/blocks": "^7.0.23",
+    "@storybook/jest": "^0.1.0",
     "@storybook/nextjs": "^7.0.23",
     "@storybook/react": "^7.0.23",
+    "@storybook/test-runner": "^0.13.0",
     "@storybook/testing-library": "^0.0.14-next.2",
     "autoprefixer": "^10.4.14",
     "eslint-config-prettier": "^8.8.0",
