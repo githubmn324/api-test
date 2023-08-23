@@ -3,7 +3,7 @@ swagger: '2.0'
 # This is your document metadata
 info:
   version: '0.0.0'
-  title: My Sample API
+  title: FOOOOO
 
 # Describe your paths here
 paths:
